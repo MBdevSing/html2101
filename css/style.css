@@ -1,0 +1,14 @@
+h1{
+    font-family: serif;
+    align-items: center;
+    color: #377ba8;
+    background-color: lightgrey;
+}
+
+form{
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
