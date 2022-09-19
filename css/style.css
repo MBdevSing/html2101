@@ -1,6 +1,6 @@
 h1{
     font-family: serif;
-    align-items: center;
+    text-align: center;
     color: #377ba8;
     background-color: lightgrey;
 }
@@ -11,4 +11,9 @@ form{
     border-radius: 10px;
     margin: auto;
     background-color: #ccc;
+}
+
+button{
+    text-align: center;
+    font-weight: bold;
 }
