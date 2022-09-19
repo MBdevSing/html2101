@@ -30,20 +30,19 @@
         <nav></nav>
     </header>
     <main>
-        <section>
-            <article>
+        <section class="form" >
+            <form name="formRegistro" id="formRegistro" action="" method="get" onsubmit="validar_formulario">
                 <H1>Registro para vacunación COVID-19</H1>
-                <form action="" method="get">
-                    <p>Nombre: <input type="text" name="nombre"></p>
-                    <p>Usuario: <input type="text" name="usuario"></p>
-                    <p>Sexo: <input type="radio" name="sexo">Masculino <input type="radio">Femenino</p>
-                    <p>Email: <input type="text" name="email"></p>
-                    <p>contraseña: <input type="text" name="contraseña"></p>
-                    <p><input type="checkbox">Declaro haber leído y aceptar las condiciones generales 
-                        del programa y la normativa sobre protección de datos</p>
-                    <button type="submit">Enviar</button>
-                </form>        
-            </article>
+                <p>Nombre:<input type="text" name="nombre" id="nombre" placeholder="Digite su nombre"></p>
+                <p>Usuario: <input type="text" name="usuario" id="usuario" placeholder="Digite su usuario"></p>
+                <p>Sexo: <input type="radio" name="sexo" id="sexo">Masculino <input type="radio">Femenino</p>
+                <p>Email: <input type="text" name="email" id="email" placeholder="pepitoperez@xxxxxxxx.com"></p>
+                <p>contraseña: <input type="text" name="password" id="password" ></p>
+                <p><input type="checkbox">Declaro haber leído y aceptar las condiciones generales 
+                del programa y la normativa sobre protección de datos</p>
+                <button type="submit" >Enviar</button>
+                <p class="warnings" id="warnings"></p>
+            </form>
         </section>
         <ul>
             <li>Item1</li>
@@ -53,4 +52,5 @@
         </ol>
     </main>
  </body>
+ <script src="./nombre.js"></script>.
 </html>

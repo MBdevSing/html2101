@@ -1,16 +1,27 @@
 h1{
-    font-family: serif;
+    font-family: Helvetica, sans-serif;
+    font-size: medium;
     text-align: center;
-    color: #377ba8;
-    background-color: lightgrey;
+    color: #214964;
+    background-color: rgba(73, 92, 121, 0.349);
 }
 
 form{
+    font-family: Helvetica, sans-serif;
+    font-size: small;
     width: 350px;
     padding: 16px;
     border-radius: 10px;
     margin: auto;
     background-color: #ccc;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #fc0000;
+    padding-top: 20px;
 }
 
 button{
